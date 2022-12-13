@@ -27,7 +27,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
+.text p {
+	text-align: left;
+	margin-right: 30px;
+	text-shadow: 2px 1px black;
+}
 ol, ul {
 	list-style: none;
 }
@@ -172,11 +176,7 @@ input, select, textarea {
 		font-style: italic;
 		padding: 1em 0 1em 2em;
 	}
-	.text p {
-	text-align: left;
-	margin-right: 30px;
-	text-shadow: 2px 1px black;
-	}
+
 /* Container */
 
 	.container {
@@ -191,7 +191,6 @@ input, select, textarea {
 		.btn-info {
 			border-radius: 9px;
 		}
-
 		@media screen and (max-width: 1280px) {
 
 			.container {
@@ -203,8 +202,6 @@ input, select, textarea {
 				}
 
 		}
-
-		
 
 		@media screen and (max-width: 768px) {
 
@@ -2381,7 +2378,10 @@ input, select, textarea {
 				padding: 4em;
 				background-attachment: scroll;
 			}
-
+			#cta p {
+				font-size: 1.5rem;
+				text-align: center;
+			}
 		/* Footer */
 
 			#footer {
@@ -2460,7 +2460,7 @@ input, select, textarea {
 			padding: 3em;
 		}
 
-}
+}	
 
 /* Narrower */
 
@@ -2976,4 +2976,3 @@ input, select, textarea {
 			}
 
 	}
-
