@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-.text p {
+.text {
 	text-align: left;
 	margin-right: 30px;
 	text-shadow: 2px 1px black;
